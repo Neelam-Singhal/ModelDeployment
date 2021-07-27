@@ -7,12 +7,16 @@
     <title>Model Deployment</title>
 </head>
 <body>
-    <h1>Model Deployment</h1>
+    <h1>Predict your Score</h1>
     <p>
-        This is Model Deployment Exercise
+        Enter the number of hours you studied
     </p>
-    <form action="/submit" method="POST">
-
+    <!-- This is just the LnF. We now have to capture this data via Python file-->
+    <form action="/" method="POST">
+        <input type="number" name="hrs" placeholder="Hours studied">
+        <input type="submit">
     </form>
+    {{my_marks}}
+
 </body>
 </html>
