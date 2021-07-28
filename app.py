@@ -7,6 +7,7 @@ import marks as m
 app = Flask(__name__)
 
 # This is the pattern of our URL
+# This is update
 @app.route("/", methods = ['GET', 'POST'])
 def marks():
     if request.method == "POST":
